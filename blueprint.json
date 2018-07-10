@@ -1,0 +1,47 @@
+{
+  "email": "cloud@us.ibm.com",
+  "generatorOptions": {
+    "generator-git-starterkit-credentials-builder": {
+      "scope": "@arf",
+      "version": "0.x.x"
+    },
+    "generator-ibm-cloud-enablement": {
+      "options": {
+        "port": "3000"
+      },
+      "version": "0.8.x"
+    },
+    "generator-ibm-service-enablement": {
+      "version": "0.6.4"
+    },
+    "generator-starterkit-content-downloader": {
+      "scope": "@arf",
+      "version": "0.x.x"
+    }
+  },
+  "generators": {
+    "node": [
+      "generator-starterkit-content-downloader",
+      "generator-ibm-cloud-enablement",
+      "generator-ibm-service-enablement",
+      "generator-git-starterkit-credentials-builder"
+    ]
+  },
+  "previewURLs": [],
+    "name": "Mikes perfect starter kit",
+    "description": "Its perfect!",
+    "appIconURL": "https://developer.ibm.com/recipes/wp-content/uploads/sites/41/2017/03/watson_conversations_icon.png",
+    "thumbnailURL": "https://developer.ibm.com/recipes/wp-content/uploads/sites/41/2017/03/watson_conversations_icon.png",
+    "requiredCapabilitiesURLs": {
+      "discovery": "https://console.bluemix.net/catalog/services/discovery"
+    },
+    "requiredCapabilities": [
+      "discovery"
+    ],
+    "servicePlans": {
+      "discovery": "lite"
+    },  "tags": [
+    "devex"
+  ],
+  "type": "WEB"
+}
